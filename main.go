@@ -3,6 +3,8 @@ import (
 	"fmt"
 	"math/rand"
 	"prueba/funciones"
+	"prueba/variables"
+	"prueba/basictypes"
 )
 
 
@@ -18,4 +20,9 @@ func main() {
 	fmt.Println(a, b)
 	d, e := funciones.Split(2, 3)
 	fmt.Println(d, e)
+	variables.TiposVar()
+	variables.VarInicializadas()
+	variables.CortaDecVar()
+	basictypes.TiposBasicos()
+	
 }
