@@ -5,6 +5,9 @@ import (
 	"prueba/funciones"
 	"prueba/variables"
 	"prueba/basictypes"
+	"prueba/conversiones"
+	"prueba/constantes"
+	"prueba/numericconstant"
 )
 
 
@@ -24,5 +27,8 @@ func main() {
 	variables.VarInicializadas()
 	variables.CortaDecVar()
 	basictypes.TiposBasicos()
-	
+	variables.ZeroValores()
+	conversiones.ConviValores()
+	constantes.LasConstantes()
+	numericconstant.NumeConsMostrando()
 }

@@ -10,8 +10,8 @@ import (
 var (
 	// Dentro del bloque estan el nombre y el tipo con su asignación
 	ToBe bool = false
-	MaxInt uint64 = 1<<64 - 1
-	z complex128 = cmplx.Sqrt(-5 + 12i)
+	MaxInt uint64 = 1<<64 - 1 // El uint64 es para valores de numeros enormes
+	z complex128 = cmplx.Sqrt(-5 + 12i) // El complex128 es para tipos de datos complejos
 )
 
 func TiposBasicos() {
