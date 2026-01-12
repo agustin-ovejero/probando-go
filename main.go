@@ -8,6 +8,7 @@ import (
 	"prueba/conversiones"
 	"prueba/constantes"
 	"prueba/numericconstant"
+	"prueba/foringo"
 )
 
 
@@ -31,4 +32,6 @@ func main() {
 	conversiones.ConviValores()
 	constantes.LasConstantes()
 	numericconstant.NumeConsMostrando()
+	foringo.ElFor()
+	foringo.ForContinuo()
 }
