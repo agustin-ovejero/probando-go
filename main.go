@@ -34,4 +34,5 @@ func main() {
 	numericconstant.NumeConsMostrando()
 	foringo.ElFor()
 	foringo.ForContinuo()
+	fmt.Println(foringo.ForEsWhile())
 }
