@@ -9,6 +9,7 @@ import (
 	"prueba/constantes"
 	"prueba/numericconstant"
 	"prueba/foringo"
+	"prueba/condiciones"
 )
 
 
@@ -35,4 +36,6 @@ func main() {
 	foringo.ElFor()
 	foringo.ForContinuo()
 	fmt.Println(foringo.ForEsWhile())
+	fmt.Println(condiciones.ElIf(2), condiciones.ElIf(-4))
+	fmt.Println(condiciones.Elpow(3, 2, 10))
 }
