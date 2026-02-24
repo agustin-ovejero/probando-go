@@ -38,4 +38,6 @@ func main() {
 	fmt.Println(foringo.ForEsWhile())
 	fmt.Println(condiciones.ElIf(2), condiciones.ElIf(-4))
 	fmt.Println(condiciones.Elpow(3, 2, 10))
+	condiciones.OtroPow(3, 3, 20)
+	
 }
